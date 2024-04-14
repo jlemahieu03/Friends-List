@@ -1,4 +1,4 @@
-## James LeMahieu - M2OEP - Friend List Abridged 
+## Friend List
 
 ### Summary of Program
 This program is a friend list that could be helpful in icebreaker activities or could help
@@ -44,82 +44,3 @@ and a "mergeSort.cpp" file as per style requirements in C++. That being said all
 Lisa Dion. Also regarding no discard this is the link to the website that explained it to me:
 https://en.cppreference.com/w/cpp/language/attributes/nodiscard.
 File input code and file output code logic and functionality was derived form Lisa Dion's Code from CS2240.
-
-### Deserved Grade
-
-I deserve 125 points on this project.
-
-##### Main Program
-
-My main program deserves 35 points because it uses all the concepts introduced in Module 2 with some
-implemented multiple times within the program. On top of this there is a large amount of user input that
-is included within this program as exemplified within last module's and this module's project. That being said
-since I got deducted for lack of complexity within last module I am deducting 5 points because there wasn't
-a big change in complexity from this module to the last. That being said I do not it should overshadow and severely
-affect the amount of work that I put into implemented module 2 concepts within this project.
-
-##### Testing program
-
-My testing program deserves 20 points because it explicitally tests to the two explicit classes that are used
-within the main program while the rest of the classes are implemented within the two classes which covers testing 
-the other classes. The Friend Class testing is the stereotypical testing fucntion that is seen throughout 
-Module 2. Since Friend_Testing is all void functions with a large amount of input within them please read the
-comments to see how te correctly test these functions. Again there is alot less boolean testing because there
-are already indicators of whether or not the function was successful within most of the Friend_list functions.
-Validation functions are implicitally tested within the public functions of the Friend_List class.
-
-##### Is-A relationship : Friend is a Person
-
-Friend Derives the abstract person class and inherits the name and hometown variables from person as well as select
-getters and setters that it defines within its body. This allows for friend to be more customized and streamlined as 
-a specific friend rather than just a person. With this the friend object is clearly implemented and used throughout
-the function of the main function as a derivative of person making this deserve 20 points.
-
-##### Is-A relationship : Friend_List is a List
-
-Friend_List derives the abstract list class and inherits select functions of the abstract class and subsequently
-defines said functions. This again allows the list to be applied not just to friends but also class lists or
-enemy lists or worker lists. Since the Friend List class is implemented heavily within the main program and
-it derives the list class this deserves 20 points.
-
-##### Has-A relationship : Friend_List has a Friend
-
-Friend_List has a vector of Friends that is implements and heavily uses throughout the program. Essentially the
-function of this whole program is reliant on this Has A relationship being robustly implemented and debugged. 
-Since this program passes all of its test cases it is safe to say this relationship derserves the full 20
-points alotted. 
-
-##### File Input
-
-When constructed the vector of friend objects reads in from a file to see of there are previously entered
-friends within the program in past runs. With this it makes sure that all the information is read in correctly
-and added to the vector as friends correctly with this it adds a layer of complexity within the program allowing
-the saving of friends between runs. That being said this deserves 5 points due to its back end implementation
-that is kept away from the user and done without explicit user calls or input.
-
-##### File Output
-
-When the Friend_List is destructed it writes out to the same text file that will be read in by the program when
-the vector is constructed the next time the main program is run. With this loop as mentioned above it allows
-the saving of friends that have been inputted by the user which allows for a more realistic and functional
-friends list than exemplified in Module 1. Since this is an implementation that adds complexity and is
-called in the desctructor without user calls or user knowledge this category deserves 5 points.
-
-##### Style and Documentation
-
-I deserve 0 points taken off. I thoroughly commented my code to the specified style guide that Module 1 introduced to us
-as well as included description git push and commit descriptions allowing graders and the instructor to
-comprehensively track the progress made on this project. As usual my code is organized follow style specifications
-as well as indenting specifications.
-
-##### Video
-
-I deserve 0 points taken off for the video as it shows multiple runs of the program due to me wanting to show
-the new feature of being able to save the vector as well as me wanting to show off the testing function that was
-creating in accordance to the module as well.
-
-##### Lifespan Of Project
-
-I deserve 0 points taken off for the lifespan of the project since this repository was created more than 7 days
-before Sunday 02/25/2024. On top of that I made significant contributions to this project for at least three days.
-These days include 02/21/2024, 02/24/2024 and 02/25/2024. Due to this I deserve 0 points take off for this.
